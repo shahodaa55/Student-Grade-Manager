@@ -1,0 +1,112 @@
+body {
+    background-color: #e9dfd0;
+    font-family: Arial, sans-serif;
+    color: #493628;
+}
+
+header h1 {
+    color: #5b3926;
+    font-weight: bold;
+}
+
+header p {
+    color: #8b735b;
+}
+
+.card {
+    background-color: #fdf9f3;
+    border: 1px solid #d8c3a5;
+    border-radius: 16px;
+}
+
+h4 {
+    color: #6b4932;
+    font-weight: bold;
+}
+
+.form-label {
+    color: #5c4230;
+    font-weight: 600;
+}
+
+.form-control {
+    padding: 12px;
+    border: 1px solid #cbb69b;
+    border-radius: 9px;
+    background-color: #fffdf9;
+    color: #493628;
+}
+
+.form-control:focus {
+    border-color: #8b6545;
+    box-shadow: 0 0 6px rgba(139, 101, 69, 0.25);
+}
+
+.btn {
+    padding: 12px;
+    border-radius: 9px;
+    font-weight: bold;
+}
+
+.btn-brown {
+    background-color: #795438;
+    color: #fff;
+    border: none;
+}
+
+.btn-brown:hover {
+    background-color: #563b28;
+    color: #fff;
+}
+
+.btn-coffee {
+    background-color: #b18a63;
+    color: #fff;
+    border: none;
+}
+
+.btn-coffee:hover {
+    background-color: #8e6a49;
+    color: #fff;
+}
+
+.student-item {
+    background-color: #f2e8d9;
+    border: 1px solid #d8c3a5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #503b2b;
+}
+
+.report-result {
+    background-color: #f1e5d5;
+    border: 1px solid #d2b99b;
+    padding: 20px;
+    border-radius: 12px;
+    color: #493628;
+}
+
+.alert-danger {
+    background-color: #f8e4df;
+    color: #963e32;
+    border-color: #e8bdb3;
+}
+
+.text-muted {
+    color: #927d68 !important;
+}
+
+hr {
+    border-color: #cbb69b;
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
